@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    display: block;
+}
+
+.container {
+    padding: 10px;
+}
+
+.ic{
+    color: #171321;font-size: 23px;
+
+}
+
+/* ------------header-1-------------- */
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 4px 24px 16px;
+}
+
+.header-1 ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: #74717A;
+}
+
+.header-1 a,
+ul li {
+    padding: 8px;
+}
+
+.header-1 .left {
+    display: flex;
+}
+
+.list-header .button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #171321;
+    border: 1px solid #171321;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 11px 16px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.list-header .button:hover{
+    background-color: #fff;
+    color: #171321;
+}
+
+/* ------------header-2-------------- */
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 4px 24px 16px;
+}
+
+.header-2 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #74717A;
+}
+
+.header-2 a,
+ul li {
+    padding: 8px;
+}
+
+.header-2 .left {
+    display: flex;
+}
+
+/* ------------header-3-------------- */
+
+.header-3 .button {
+    width: 100%;
+    justify-content: center;
+    background-color: #171321;
+    border: 1px solid #171321;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    min-width: 68px;
+    padding: 11px 16px;
+    text-align: center;
+}
+
+.header-3 .nav-bottom ul {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-3 .button:hover {
+    background-color: #fff;
+    color: #171321;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .header-2 {
+        display: none;
+    }
+
+    .header-3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 576px) {
+    .header-1 {
+        display: none;
+    }
+
+    .header-3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header-1 {
+        display: none;
+    }
+
+    .header-2 {
+        display: none;
+    }
+}   
